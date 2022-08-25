@@ -1,3 +1,34 @@
+/* Estilo listas */
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: chartreuse;
+}
+
+#listStyle{
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+}                               
+
+
+
+/* Estilo seccion integrantes */
+
+
+
 /*Disenio seccion fichanombreintegrante*/
 
 .imgCv{
