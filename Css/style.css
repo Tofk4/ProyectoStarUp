@@ -1,3 +1,17 @@
+/* Estilo Inicio */
+
+#titPrinc{
+    text-align: center;
+}
+
+#subtitPrinc{
+    font-size: 15px;
+}
+
+#textPrinc{
+    text-align: center;
+}
+
 /* Estilo listas */
 nav ul{
     margin: 0;
@@ -15,6 +29,7 @@ a{
 
 a:hover{
     color: chartreuse;
+    transition: 0.5s;
 }
 
 #listStyle{
