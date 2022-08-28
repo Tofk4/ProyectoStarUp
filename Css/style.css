@@ -12,13 +12,14 @@
     text-align: center;
 }
 
+
 /* Estilo listas */
 nav ul{
     margin: 0;
     padding: 0;
 }
 
-li{
+.liStyle{
     display: inline-block;
     padding: 20px;
 }
@@ -44,8 +45,42 @@ a:hover{
 
 
 
-/*Disenio seccion fichanombreintegrante*/
+/*Estilo seccion Lucas Gabas*/
 
-.imgCv{
-    width: 100px;
+
+.imgLG{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titleLG{
+    font-family:'Roboto', sans-serif; ;
+    text-align: center;
+}
+
+.listLG{
+    text-align: left;
+    padding: 10px;
+}
+
+.hrLG1{
+    width: 160px;
+    text-align: left;
+    margin-left: 0%;
+    border: solid;
+}
+
+.hrLG2{
+    width: 160px;
+    text-align: left;
+    margin-left: 0%;
+    border: solid;
+}
+
+#footerLG{
+    display: inline-block;
 }
