@@ -57,9 +57,18 @@ a:hover{
     margin-right: auto;
 }
 
-.titleLG{
+.titleLGCont{
     font-family:'Roboto', sans-serif; ;
     text-align: center;
+}
+
+.titleLG{
+    font-size: 50px;
+}
+
+.subTitleLG{
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .listLG{
@@ -81,6 +90,13 @@ a:hover{
     border: solid;
 }
 
+#asideCont{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
 #footerLG{
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
 }
