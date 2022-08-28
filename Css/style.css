@@ -64,11 +64,12 @@ a:hover{
 
 .titleLG{
     font-size: 50px;
+    margin-bottom: auto;
 }
 
 .subTitleLG{
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-top: auto;
 }
 
 .listLG{
