@@ -1,0 +1,103 @@
+/* Estilo Inicio */
+
+#titPrinc{
+    text-align: center;
+}
+
+#subtitPrinc{
+    font-size: 15px;
+}
+
+#textPrinc{
+    text-align: center;
+}
+
+
+/* Estilo listas */
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.liStyle{
+    display: inline-block;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: chartreuse;
+    transition: 0.5s;
+}
+
+#listStyle{
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+}                               
+
+
+
+/* Estilo seccion integrantes */
+
+
+
+/*Estilo seccion Lucas Gabas*/
+
+
+.imgLG{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titleLGCont{
+    font-family:'Roboto', sans-serif; ;
+    text-align: center;
+}
+
+.titleLG{
+    font-size: 50px;
+    margin-bottom: auto;
+}
+
+.subTitleLG{
+    font-size: 30px;
+    margin-top: auto;
+}
+
+.listLG{
+    text-align: left;
+    padding: 10px;
+}
+
+.hrLG1{
+    width: 160px;
+    text-align: left;
+    margin-left: 0%;
+    border: solid;
+}
+
+.hrLG2{
+    width: 160px;
+    text-align: left;
+    margin-left: 0%;
+    border: solid;
+}
+
+#asideCont{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+#footerLG{
+    display: flex;
+    justify-content: space-around;
+}
