@@ -1,51 +1,4 @@
-/* Estilo Inicio */
-
-#titPrinc{
-    text-align: center;
-}
-
-#subtitPrinc{
-    font-size: 15px;
-}
-
-#textPrinc{
-    text-align: center;
-}
-
-
-/* Estilo listas */
-nav ul{
-    margin: 0;
-    padding: 0;
-}
-
-.liStyle{
-    display: inline-block;
-    padding: 20px;
-}
-
-a{
-    text-decoration: none;
-}
-
-a:hover{
-    color: chartreuse;
-    transition: 0.5s;
-}
-
-#listStyle{
-    list-style: none;
-    text-align: center;
-    font-size: 25px;
-}                               
-
-
-
-
-
-
-
-
+/*Estilo seccion Lucas Gabas*/
 
 .imgLG{
     width: 200px;
@@ -100,6 +53,3 @@ a:hover{
     display: flex;
     justify-content: space-around;
 }
-
-
-
