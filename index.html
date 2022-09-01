@@ -1,35 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Raleway:ital,wght@0,800;1,700;1,900&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Raleway:ital,wght@0,800;1,700;1,900&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/aa1f0261ac.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/Css/style.css">
-    <title>Clase 2</title>
+    <title>Devs International</title>
   </head>
   <body>
-
-    <nav>
-      <ul id="listStyle">
-        <li class="liStyle"><a href="/Resources/Secciones/integrantes.html">Integrantes</a></li>
-        <li class="liStyle"><a href="/Resources/Secciones/servicios.html">Servicios</a></li>
-        <li class="liStyle"><a href="/Resources/Secciones/contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
-
-    <header>
-      <h1 id="titPrinc">Devs international</h1>
-      <h2 id="subtitPrinc">
-        Somos una empresa de desarrolladores front end que brindamos servicios y
-        soluciones relacionados al diseño y desarrollo de e-commerce para
-        empresas nacionales e internacionales. Contamos con un equipo de
-        profesionales altamente calificados y con todos los recursos necesarios
-        para satisfacer sus necesidades.
-     </h2>
-
-      <strong><p id="textPrinc">Bienvenido al futuro</p></strong>
+    <header class="header">
+      <nav class="nav">
+            <div class="logoImg">
+              <!-- <img class="logo nav-link logoimg" src="/Resources/Imagenes/logo.jpeg" alt=""> -->
+            </div>
+            <a href="#" class="logo nav-link">Devs International</a>
+            <button class="nav-toggle">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu nav-menu_visible">
+              <li class="nav-menu-item"><a href="/Resources/Secciones/integrantes.html" class="nav-menu-link nav-link"> Integrantes <i class="fa-solid fa-user"></i></a></li>
+              <li class="nav-menu-item"><a href="/Resources/Secciones/contacto.html" class="nav-menu-link nav-link">Contacto </a></li>
+              <li class="nav-menu-item"><a href="/Resources/Secciones/servicios.html" class="nav-menu-link nav-link">Servicios <i class="fa-solid fa-briefcase"></i></a></li>
+            </ul>
+      </nav>
     </header>
-
-  
+    <div class="contenedor">
+      <main class="main">
+            <section class="articulo">
+                  <h1 class="titulo">Quienes somos</h1>
+                  <p class="parrafo">
+                    Somos una empresa de desarrolladores front end que brindamos servicios y
+                    soluciones relacionados al diseño y desarrollo de e-commerce para
+                    empresas nacionales e internacionales. Contamos con un equipo de
+                    profesionales altamente calificados y con todos los recursos necesarios
+                    para satisfacer sus necesidades.
+                  </p>
+            </section>
+            <section class="articulo">
+              <h1 class="titulo">Que ofrecemos</h1>
+              <p class="parrafo">
+                
+              </p>
+            </section>
+            <section class="articulo">
+              <h1 class="titulo">Que buscamos</h1>
+              <p class="parrafo">
+            
+              </p>
+            </section>
+            <section class="articulo">
+              <h3 class="titulo2">Mision</h3> 
+              <p class="parrafo">
+              
+              </p>
+            </section>
+            <section class="articulo">
+              <h3 class="titulo2">Vision</h3> 
+              <p class="parrafo">
+              
+              </p>
+            </section>           
+      </main>
+    </div>
+    <div class="main-footer">
+      <footer class="footer">
+        <ul class="footer-list">
+            <li class="footer-item"><a href="#" class="">GitHub</a> <i class="fa-brands fa-github"></i></li>
+            <li class="footer-item"><a href="#" class="">LinkedIn</a> <i class="fa-brands fa-linkedin"></i></li>
+            <li class="footer-item"><a href="#" class="">Email</a> <i class="fa-solid fa-envelope"></i></li>
+            <li class="footer-item"><a href="#" class="">Instagram</a> <i class="fa-brands fa-instagram"></i></li>
+        </ul>
+      </footer>
+    </div> 
   </body>
 </html>
