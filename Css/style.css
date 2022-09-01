@@ -2,11 +2,14 @@
     font-family:LibreBaskerville-Italic;
     src: url(/fonts/LibreBaskerville-Italic.ttf);
  }
+ 
+ /* Estas son las etiquetas para afectar a todo el html, se usa para poner parametros que se utilizaran en todos lados. Por ejemplo que todo este en BordeBox y que el valor de Margin sea igual a 0 para no crear margenes que no quiero */
  *{
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif; 
  }
+
  i{
     color: #34373C;
     text-align: center;
@@ -16,6 +19,8 @@
     padding: 90px 20px 0;
     background-color: #f6f8ee;
  }
+
+ /* Esta parte de el codigo CSS es para el header y el nav, estan desde el logo y el nombre de la empresa hasta las paginas de contacto, servicios, etc */
 .header{
     background-color: #abe4ff;
     height: 80px;
@@ -44,7 +49,6 @@
     padding: 0 40px;
     line-height: 80px;
  }
-
  .nav-menu{
     display: flex;
     margin-right:40px;
@@ -60,11 +64,14 @@
     padding: 8px 12px;
     border-radius: 3px;
  }
+ /* Esto es un efecto hover para que cuando pasemos el mouse por encima se vea lo que le ponemos hover con un efecto que lo envuelve */
  .nav-menu-link:hover,
  .nav-menu-link-active{
     background-color: #ffd41567;
     transition: 0.5s;
  }
+
+ /* El nav-toggle corresponde a un menu de hamburgesa que se utiliza cuando una pagina es responsive, es un boton para ocultar y mostrar las opciones de nuestro nav */
  .nav-toggle{
     color: #34373C;
     background: none;
@@ -75,11 +82,12 @@
     display: none;
     cursor: pointer;
  }
+
+/* Contenedor vendria siendo la clase de un div que envuelve a nuestro main, es una etiqueta que utilizamos como "caja padre" para darle efectos heredados a las etiquetas que contiene el contenedor */
  .contenedor{
     display: grid;
     flex-direction: column;
     min-height: 100vh; 
-    
     padding: 10px 10px;
     margin: 0 30%;
  }
@@ -111,6 +119,16 @@
     font-family: 'Libre Baskerville', serif;
     font-size: 24px;
  }
+
+ /* Esta seccion pertenece al pie de pagina o "footer" en especial otro div padre que envuelve o contiene a otras etiquetas dentro de si*/
+ .main-footer{
+   background-color: #abe4ff;
+   height: 80px;
+   width: 100%;
+   top: 0;
+   left: 0;
+   margin-top: auto;
+}
  .footer{
     font-weight: bold;
     text-transform: uppercase;
@@ -123,31 +141,18 @@
     margin-right:40px;
     list-style: none;
  }
+ /* esta etiqueta es para darle estos atributos a la etiqueta a que representa los links */
  a{
     font-family: 'Libre Baskerville', serif;
     font-family: 'Raleway', sans-serif;
     color: #34373C;
  }
- .main-footer{
-    background-color: #abe4ff;
-    height: 80px;
-    width: 100%;
-    top: 0;
-    left: 0;
- }
+
  .footer-item{  
     font-size: 14px;
     margin: 0 10px;
     line-height: 80px;
     width: max-content;
- }
- .contacto{
-    text-align: center;
-    font-size: 14px;
-    font-family: sans-serif; 
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-bottom: 50px;
  }
  .main{
     display: flex;
@@ -159,6 +164,8 @@
  .articulo{
     margin-top: 10px;
  }
+
+ /* Esta parte responde al formulario y todavia esta sin terminar */
 .formulario{
     display: flex;
     margin-top: 10px;
@@ -175,4 +182,8 @@
     font-size: 14px;
     font-family: sans-serif;
 
+}
+/* Esta parte es para la seccion de contactos para quitarle el efecto de hipervinculo a las etiquetas a */
+.integrantes{
+   text-decoration: none;
 }
