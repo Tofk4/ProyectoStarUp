@@ -67,7 +67,7 @@
  /* Esto es un efecto hover para que cuando pasemos el mouse por encima se vea lo que le ponemos hover con un efecto que lo envuelve */
  .nav-menu-link:hover,
  .nav-menu-link-active{
-    background-color: #ffd41567;
+    background-color: #f6f8ee;
     transition: 0.5s;
  }
 
