@@ -54,7 +54,7 @@
     font-family: "lato", sans-serif;
 }
 .formacion{
-    font-family: "cursive" ;
+    font-family: "roboto", sans-serif ;
 }
 
 h2{
@@ -70,7 +70,15 @@ p{
 }
 
 
-*{
-    color: black;
-    
+a:link{
+    color:blue
+}
+a:visited{
+    color:grey
+}
+a:hover{
+    color:yellow
+}
+a:active{
+    color:red
 }
