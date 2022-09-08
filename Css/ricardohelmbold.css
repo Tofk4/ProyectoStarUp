@@ -1,3 +1,61 @@
+.header{
+    background-color: #abe4ff;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+ }
+ .nav{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+    font-family:"raleway", sans-serif ;
+    color: #34373C;
+    font-size: 14px;
+}
+.nav-link{
+   color: #34373C;
+}
+.logo{
+   width: max-content;
+   font-size: 16px;
+   padding: 0 40px;
+   line-height: 80px;
+}
+.nav-menu{
+   display: flex;
+   margin-right:40px;
+   list-style: none;
+}
+.nav-menu-item{
+   font-size: 14px;
+   margin: 0 10px;
+   line-height: 80px;
+   width: max-content;
+}
+.nav-menu-link{
+   padding: 8px 12px;
+   border-radius: 3px;
+}
+
+.mifoto{
+    width: 150px;
+    height: 150px;
+    
+ }
+
+ .cont{
+    font-family: "combo", sans-serif;
+ }
+
+.exp{
+    font-family: "lato", sans-serif;
+}
+.formacion{
+    font-family: "cursive" ;
+}
 
 h2{
     font-size: 28px;
