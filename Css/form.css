@@ -1,0 +1,110 @@
+/* Estilos Seccion Contacto */
+
+.ContForm .Form .Form-Header .Form-Titulo{
+    font-weight: normal;
+    color: #ff851b;
+    text-align: center;
+    padding: 14px 0;
+}
+.Span{
+    color: black;
+}
+.ContForm .Form{
+    background: rgba(0,0,0,.6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+.ContForm .Form .Form-Label{
+    display: block;
+    color:#ff851b;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ .Form-Input {
+    background: rgba(0,0,0,.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff851b;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #FFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+.Form-Textarea{
+    background: rgba(0,0,0,.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff851b;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #FFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+
+.Btn-Submit{
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: none;
+    background: #ff851b;
+    font-size: 16px;
+    border:none;
+    color: #FFF;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.ContForm .Form .Btn-Submit:hover{
+    background: #f29718;
+}
+
+
+.ContactInfo{
+    position: relative;
+    top: 70px;
+    font-size: 40px;
+}
+.ContactInfo li i{
+    padding: 23px;
+}
+.ContactInfo h4{
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+}
+.ContactInfo h4,
+.ContactInfo ul,
+.ContactInfo p{
+    text-align: center;
+    margin: 0 0 1rem 0;
+    
+}
+
+.ContactInfo ul{
+    list-style: none;
+    padding: 0;
+}
+.ContactInfo ul li{
+    padding: 0.3em;
+}
+
+.ContactWrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.ContactWrapper{
+    padding: 2em;
+}

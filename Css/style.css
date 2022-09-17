@@ -165,24 +165,7 @@
     margin-top: 10px;
  }
 
- /* Esta parte responde al formulario y todavia esta sin terminar */
-.formulario{
-    display: flex;
-    margin-top: 10px;
-    text-align: center;
-    font-size: 14px;
-    font-family: sans-serif; 
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-bottom: 50px;
-    justify-content: center;
-    align-items: center;
-}
-.label{
-    font-size: 14px;
-    font-family: sans-serif;
 
-}
 /* Esta parte es para la seccion de contactos para quitarle el efecto de hipervinculo a las etiquetas a */
 .integrantes{
    text-decoration: none;

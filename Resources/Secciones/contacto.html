@@ -15,6 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/Css/style.css">
+    <link rel="stylesheet" href="/Css/form.css">
     <title>Contacto</title>
   </head>
   <body>
@@ -33,25 +34,28 @@
     </header>
     <div class="contenedor">
       <main class="main">
-        <section class="articulo">
-          <h1 class="titulo"><h2>Comunicate con Devs international</h1>                
-            <div class="formulario">
-              <form action="#">
-                <label class="label" for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Nombre">
-                <br>
-                <br>
-                <label class="label" for="apellido">Apellido</label>
-                <input type="text" id="apellido" name="apellido" placeholder="Apellido">
-                <br>
-                <br>
-                <label class="label" for="asunto">Asunto</label>
-                <textarea name="asunto" id="asunto" placeholder="Ingrese asunto" cols="22" rows="5"></textarea>
-                <br>
-                <br>
-                <button>Enviar</button>
-              </form>  
-            </div>
+        <section class="articulo">              
+            <div class="ContForm">
+              <form method="GET" class="Form">
+                  <div class="Form-Header">
+                    <h1 class="Form-Titulo">Devs International</h1>
+                  </div>
+                  
+                  <label for="Nombre" class="Form-Label">Nombre:</label>
+                  <input type="text" id="Nombres" class="Form-Input" placeholder="Escriba su nombre">
+      
+                  <label for="Apellido" class="Form-Label">Apellido:</label>
+                  <input type="text" class="Form-Input" id="Apellido" placeholder="Escriba su apellido">
+                  
+                  <label for="Correo" class="Form-Label">Email:</label>
+                  <input type="email" class="Form-Input" id="Email" placeholder="Escriba su Email">
+                  
+                  <label for="Mensaje" class="Form-Label">Mensaje:</label>
+                  <textarea id="Mensaje" class="Form-Textarea" placeholder="Escriba aquí su mensaje"></textarea>
+      
+                  <input type="submit" class="Btn-Submit" value="Enviar Consulta">
+              </form>
+          </div>
         </section>                  
       </main>
     </div>
