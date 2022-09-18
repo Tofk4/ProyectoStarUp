@@ -1,18 +1,21 @@
 /* Estilos Seccion Contacto */
-.contenedorForm{
+  .contenedorForm{
     padding: 10px 10px;
- }
+   }
 
-.ContForm .Form .Form-Header .Form-Titulo{
+  .ContForm .Form .Form-Header .Form-Titulo{
     font-weight: normal;
     color: #f6f8ee;
     text-align: center;
     padding: 14px 0;
-}
-.Span{
+  }
+
+  .Span{
     color: #f6f8ee;
-}
-.ContForm .Form{
+  }
+
+
+  .ContForm .Form{
     background: #157a8c;
     width: 100%;
     max-width: 650px;
@@ -21,13 +24,17 @@
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 3px;
-}
-.ContForm .Form .Form-Label{
+  }
+
+
+  .ContForm .Form .Form-Label{
     display: block;
     color:#f6f8ee;
     font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+  }
+
+
  .Form-Input {
     background: rgba(0,0,0,.7);
     border: none;
@@ -40,8 +47,10 @@
     font-size: 14px;
     color: #FFF;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
-}
-.Form-Textarea{
+  }
+
+
+  .Form-Textarea{
     background: rgba(0,0,0,.7);
     border: none;
     outline: none;
@@ -56,9 +65,9 @@
     resize: vertical;
     max-height: 150px;
     min-height: 50px;
-}
+  }
 
-.Btn-Submit{
+  .Btn-Submit{
     width: 100%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     outline: none;
@@ -69,45 +78,54 @@
     padding: 15px 0;
     cursor: pointer;
     transition: all .5s ease;
-}
-.ContForm .Form .Btn-Submit:hover{
+  }
+
+  .ContForm .Form .Btn-Submit:hover{
     background: #b3aca4;
-}
+  }
 
 
-.ContactInfo{
+  .ContactInfo{
     position: relative;
     top: 70px;
     font-size: 40px;
-}
-.ContactInfo li i{
+  }
+
+
+  .ContactInfo li i{
     padding: 23px;
-}
-.ContactInfo h4{
+  }
+
+
+  .ContactInfo h4{
     font-size: 30px;
     position: relative;
     left: 20px;
-}
-.ContactInfo h4,
-.ContactInfo ul,
-.ContactInfo p{
+  }
+
+
+  .ContactInfo h4,
+  .ContactInfo ul,
+  .ContactInfo p{
     text-align: center;
     margin: 0 0 1rem 0;
     
-}
+  }
 
-.ContactInfo ul{
+  .ContactInfo ul{
     list-style: none;
     padding: 0;
-}
-.ContactInfo ul li{
-    padding: 0.3em;
-}
+  }
 
-.ContactWrapper{
+  .ContactInfo ul li{
+    padding: 0.3em;
+  }
+
+  .ContactWrapper{
     display: grid;
     grid-template-columns: 2fr 1fr;
-}
-.ContactWrapper{
+  }
+
+  .ContactWrapper{
     padding: 2em;
-}
+  }

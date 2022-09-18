@@ -21,7 +21,7 @@
  }
 
  /* Esta parte de el codigo CSS es para el header y el nav, estan desde el logo y el nombre de la empresa hasta las paginas de contacto, servicios, etc */
-.header{
+ .header{
     background-color: #abe4ff;
     height: 80px;
     position: fixed;
@@ -91,6 +91,7 @@
     padding: 10px 10px;
     margin: 0 30%;
  }
+
  .titulo{
     margin-top: 30px;
     font-family: 'Libre Baskerville', serif;
@@ -98,6 +99,7 @@
     color: #34373C;
     font-size: 36px;
  }
+
  .titulo2{
     margin-top: 30px;
     font-family: 'Libre Baskerville', serif;
@@ -106,6 +108,7 @@
     font-size: 14px;
     text-transform: uppercase;
  }
+
  .mas{
     color: #34373C;
     font-size: 14px;
@@ -128,7 +131,8 @@
    top: 0;
    left: 0;
    margin-top: auto;
-}
+  }
+
  .footer{
     font-weight: bold;
     text-transform: uppercase;
@@ -136,6 +140,7 @@
     justify-content: center;
     margin-top: 50px;
  }
+
  .footer-list{
     display: flex;
     margin-right:40px;
@@ -167,6 +172,6 @@
 
 
 /* Esta parte es para la seccion de contactos para quitarle el efecto de hipervinculo a las etiquetas a */
-.integrantes{
+  .integrantes{
    text-decoration: none;
-}
+  }
