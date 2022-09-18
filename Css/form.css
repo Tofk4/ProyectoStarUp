@@ -1,17 +1,20 @@
 /* Estilos Seccion Contacto */
+.contenedorForm{
+    padding: 10px 10px;
+ }
 
 .ContForm .Form .Form-Header .Form-Titulo{
     font-weight: normal;
-    color: #ff851b;
+    color: #f6f8ee;
     text-align: center;
     padding: 14px 0;
 }
 .Span{
-    color: black;
+    color: #f6f8ee;
 }
 .ContForm .Form{
-    background: rgba(0,0,0,.6);
-    width: 90%;
+    background: #157a8c;
+    width: 100%;
     max-width: 650px;
     margin: auto;
     padding: 5px 35px;
@@ -21,7 +24,7 @@
 }
 .ContForm .Form .Form-Label{
     display: block;
-    color:#ff851b;
+    color:#f6f8ee;
     font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -29,7 +32,7 @@
     background: rgba(0,0,0,.7);
     border: none;
     outline: none;
-    border-bottom: 2px solid #ff851b;
+    border-bottom: 2px solid #f6f8ee;
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
@@ -42,7 +45,7 @@
     background: rgba(0,0,0,.7);
     border: none;
     outline: none;
-    border-bottom: 2px solid #ff851b;
+    border-bottom: 2px solid #f6f8ee;
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
@@ -59,16 +62,16 @@
     width: 100%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     outline: none;
-    background: #ff851b;
+    background: #f6f8ee;
     font-size: 16px;
     border:none;
-    color: #FFF;
+    color: black;
     padding: 15px 0;
     cursor: pointer;
     transition: all .5s ease;
 }
 .ContForm .Form .Btn-Submit:hover{
-    background: #f29718;
+    background: #b3aca4;
 }
 
 
