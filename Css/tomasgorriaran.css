@@ -1,162 +1,173 @@
-.nav {
-  text-transform: uppercase;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 15%;
-  font-family: "Libre Baskerville", serif;
-  font-family: "Raleway", sans-serif;
-  color: #34373c;
-  font-size: 14px;
-}
-.nav-link {
-  color: #34373c;
-  text-decoration: none;
-}
-.logo {
-  width: max-content;
-  font-size: 16px;
-  padding: 0 40px;
-  line-height: 80px;
-}
-.nav-menu {
-  display: flex;
-  margin-right: 40px;
-  list-style: none;
-}
-.nav-menu-item {
-  font-size: 14px;
-  margin: 0 10px;
-  line-height: 80px;
-  width: max-content;
-}
-.nav-menu-link {
-  padding: 8px 12px;
-  border-radius: 3px;
-}
-.nav-menu-link:hover,
-.nav-menu-link-active {
-  background-color: #f6f8ee;
-  transition: 0.5s;
-}
-.nav-toggle {
-  color: #34373c;
-  background: none;
-  border: none;
-  font-size: 30px;
-  padding: 0 20px;
-  line-height: 60px;
-  display: none;
-  cursor: pointer;
+@font-face {
+    font-family:LibreBaskerville-Italic;
+    src: url(/fonts/LibreBaskerville-Italic.ttf);
+ }
+ *{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+ }
+
+ i{
+    color: #34373C;
+    text-align: center;
+ }
+ body{
+    font-family: sans-serif;
+    padding: 90px 0 0;
+    background-color: #f6f8ee;
+ }
+.header{
+    background-color: #abe4ff;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+ }
+ .nav{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif; 
+    color: #34373C;
+    font-size: 14px;
+ }
+ .nav-link{
+    color: #34373C;
+    text-decoration: none;
+ }
+ .logo{
+    width: max-content;
+    font-size: 16px;
+    padding: 0 40px;
+    line-height: 80px;
+ }
+ .nav-menu{
+    display: flex;
+    margin-right:40px;
+    list-style: none;
+ }
+ .nav-menu-item{
+    font-size: 14px;
+    margin: 0 10px;
+    line-height: 80px;
+    width: max-content;
+ }
+ .nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+ }
+ .nav-menu-link:hover,
+ .nav-menu-link-active{
+    background-color: #f6f8ee;
+    transition: 0.5s;
+ }
+ .nav-toggle{
+    color: #34373C;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+    cursor: pointer;
+ }
+
+.imgTG{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
-.Nombre {
-  color: black;
-  font-size: 50px;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
+.titleTGCont{
+    font-family:'Roboto', sans-serif; ;
+    text-align: center;
 }
 
-.titleNombre {
-  color: black;
-  font-size: 50px;
-}
-.Contacto {
-  color: black;
-  width: 160px;
-}
-.titleContacto {
-  color: black;
-  width: 160px;
+.titleTG{
+    font-size: 50px;
+    margin-bottom: auto;
 }
 
-.Conocimientos {
-  color: black;
-  width: 160px;
-  text-align: left;
-  margin-left: 0%;
-  border: solid;
+.subTitleTG{
+    font-size: 30px;
+    margin-top: auto;
 }
 
-.titleConocimientos {
+.listTG{
+    text-align: left;
+    padding: 10px;
 }
 
-.Intereses {
-  color: black;
-  width: 160px;
-  text-align: left;
-  margin-left: 0%;
-  border: solid;
-  font-family: "lato", sans-serif;
+.hrTG1{
+    width: 160px;
+    text-align: left;
+    margin-left: 0%;
+    border: solid;
 }
 
-.titleIntereses {
+.hrTG2{
+    width: 160px;
+    text-align: left;
+    margin-left: 0%;
+    border: solid;
 }
 
-.Experiencia {
-  color: black;
-  font-size: 20px;
-  width: 300px;
-  text-align: left;
-  margin-left: 70%;
+#asideCont{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
 }
 
-.titleExperiencia {
-  color: black;
-  font-size: 40px;
-  width: 300px;
-  text-align: left;
-  margin-left: 70%;
+#footerTG{
+    display: flex;
+    justify-content: space-around;
 }
-
-.gorrifoto {
-  width: 200px;
-  height: 200px;
-  border-radius: 160px;
-  border: 10px solid #abe4ff;
-  display: block;
-  margin: auto;
-}
-
-.main-footer {
-  background-color: #abe4ff;
-  height: 80px;
-  width: 100%;
-  top: 0;
-  left: 0;
-  margin-top: auto;
-}
-.footer {
-  font-weight: bold;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  margin: 50px 60px;
-}
-.footer-list {
-  display: flex;
-  margin-right: 40px;
-  list-style: none;
-}
-
-a {
-  font-family: "Libre Baskerville", serif;
-  font-family: "Raleway", sans-serif;
-  color: #34373c;
-}
-
-.footer-item {
-  font-size: 14px;
-  margin: 0 10px;
-  line-height: 80px;
-  width: max-content;
-}
-.main {
-  display: flex;
-  justify-content: space-between;
-  max-width: 992px;
-  margin: 0 auto;
-  flex-direction: column;
-}
-.articulo {
-  margin-top: 10px;
-}
+.main-footer{
+    background-color: #abe4ff;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-top: auto;
+ }
+  .footer{
+     font-weight: bold;
+     text-transform: uppercase;
+     display: flex;
+     justify-content: center;
+     margin: 50px 60px;
+  }
+  .footer-list{
+     display: flex;
+     margin-right:40px;
+     list-style: none;
+  }
+  a{
+     font-family: 'Libre Baskerville', serif;
+     font-family: 'Raleway', sans-serif;
+     color: #34373C;
+  }
+ 
+  .footer-item{  
+     font-size: 14px;
+     margin: 0 10px;
+     line-height: 80px;
+     width: max-content;
+  }
+  .main{
+     display: flex;
+     justify-content: space-between;
+     max-width: 992px;
+     margin: 0 auto;
+     flex-direction: column;
+  }
+  .articulo{
+     margin-top: 10px;
+  }
