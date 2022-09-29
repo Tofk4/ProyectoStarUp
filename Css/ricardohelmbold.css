@@ -68,6 +68,11 @@
     margin-right: auto;
  }
 
+ .minombre{
+   font-family:'Roboto', sans-serif; ;
+   text-align: center;
+}
+
  .cont{
     font-family: "roboto", sans-serif;
  }
@@ -113,15 +118,3 @@ p{
    
 
 
-a:link{
-    color:blue
-}
-a:visited{
-    color:grey
-}
-a:hover{
-    color:yellow
-}
-a:active{
-    color:red
-}
